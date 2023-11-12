@@ -2,25 +2,22 @@
   "schemaVersion": 1,
   "id": "pillagerbanners",
   "version": "${version}",
-
   "name": "PillagerBanners",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/finnr/PillagerBanners"
+  },
   "license": "AGPL-3.0",
-  "icon": "assets/pillagerbanners/icon.png",
-
-  "environment": "*",
-  "entrypoints": {},
-
-      "mixins": [
-        "pillagerbanners.mixins.json"
-      ],
-
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "de.zonlykroks.pillagerbanners.PillagerBanners"
+    ]
+  },
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
