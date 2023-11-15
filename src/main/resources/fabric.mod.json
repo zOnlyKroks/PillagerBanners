@@ -3,10 +3,10 @@
   "id": "pillagerbanners",
   "version": "${version}",
   "name": "PillagerBanners",
-  "description": "",
-  "authors": [],
+  "description": "A simple mod to allow users to place configurable items onto the head of any mob",
+  "authors": ["zOnlyKroks"],
   "contact": {
-    "repo": "https://github.com/finnr/PillagerBanners"
+    "repo": "https://github.com/zOnlyKroks/PillagerBanners"
   },
   "license": "AGPL-3.0",
   "environment": "server",
